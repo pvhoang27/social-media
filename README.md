@@ -1,5 +1,5 @@
-Dự án Mạng Xã Hội Đơn Giản (React & Node.js)
-Đây là một dự án web application mạng xã hội cơ bản, được xây dựng để minh họa cách hoạt động của một ứng dụng full-stack sử dụng React cho frontend, Node.js/Express cho backend và MySQL làm cơ sở dữ liệu.
+🚀 Dự án Mạng Xã Hội Đơn Giản (React & Node.js)
+Một dự án web application mạng xã hội cơ bản, được xây dựng để minh họa cách hoạt động của một ứng dụng full-stack sử dụng React cho frontend, Node.js/Express cho backend và MySQL làm cơ sở dữ liệu.
 
 ✨ Các tính năng chính
 Xác thực người dùng: Đăng ký và đăng nhập tài khoản an toàn sử dụng JSON Web Tokens (JWT). Mật khẩu được mã hóa bằng bcrypt.
@@ -17,39 +17,29 @@ Bình luận vào bài viết.
 Giao diện đáp ứng (Responsive): Giao diện được xây dựng với Tailwind CSS để có thể xem tốt trên nhiều thiết bị.
 
 🛠️ Công nghệ sử dụng
-Frontend:
+Lĩnh vực
 
-React.js - Thư viện JavaScript để xây dựng giao diện người dùng.
+Công nghệ
 
-Tailwind CSS - Framework CSS cho việc thiết kế nhanh chóng.
+Frontend
 
-Axios - Thư viện để thực hiện các yêu cầu HTTP tới backend.
+React.js, Tailwind CSS, Axios
 
-Backend:
+Backend
 
-Node.js - Môi trường chạy JavaScript phía server.
+Node.js, Express.js, JWT, Bcrypt.js, Multer
 
-Express.js - Framework web cho Node.js.
+Cơ sở dữ liệu
 
-MySQL2 - Driver để kết nối Node.js với MySQL.
-
-JSON Web Token (JWT) - Để xác thực và phân quyền người dùng.
-
-Bcrypt.js - Để mã hóa mật khẩu.
-
-Multer - Middleware để xử lý việc tải lên (upload) file.
-
-Cơ sở dữ liệu:
-
-MySQL - Hệ quản trị cơ sở dữ liệu quan hệ.
+MySQL, MySQL2 Driver
 
 🚀 Hướng dẫn Cài đặt và Chạy dự án
-Yêu cầu
+✅ Yêu cầu
 Node.js (phiên bản 14.x trở lên)
 
 npm (thường đi kèm với Node.js)
 
-MySQL Server
+MySQL Server đang chạy
 
 1. Cài đặt Cơ sở dữ liệu
 Mở công cụ quản lý MySQL của bạn (MySQL Workbench, phpMyAdmin, etc.).
@@ -129,7 +119,7 @@ Khởi động server backend:
 
 node server.js
 
-Server sẽ chạy tại http://localhost:3001.
+✅ Server sẽ chạy tại http://localhost:3001.
 
 3. Cài đặt Frontend
 Mở một cửa sổ terminal mới và di chuyển vào thư mục frontend:
@@ -144,17 +134,17 @@ Khởi động ứng dụng React:
 
 npm start
 
-Ứng dụng sẽ tự động mở trong trình duyệt của bạn tại http://localhost:3000.
+✅ Ứng dụng sẽ tự động mở trong trình duyệt của bạn tại http://localhost:3000.
 
 Bây giờ bạn có thể đăng ký tài khoản và bắt đầu sử dụng!
 
 🔮 Các hướng phát triển trong tương lai
-Trang cá nhân cho người dùng.
+[ ] Trang cá nhân cho người dùng.
 
-Chỉnh sửa / Xóa bài đăng và bình luận.
+[ ] Chỉnh sửa / Xóa bài đăng và bình luận.
 
-Hệ thống theo dõi (Follow/Unfollow).
+[ ] Hệ thống theo dõi (Follow/Unfollow).
 
-Thông báo thời gian thực (real-time notifications).
+[ ] Thông báo thời gian thực (real-time notifications).
 
-Nhắn tin trực tiếp.
+[ ] Nhắn tin trực tiếp.
