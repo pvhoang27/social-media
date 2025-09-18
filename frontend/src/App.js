@@ -190,7 +190,7 @@ const FeedPage = ({ token, user, setToken, setUser }) => {
     return (
         <div className="w-full max-w-2xl mx-auto">
             <div className="flex justify-between items-center mb-4">
-                <h1 className="text-3xl font-bold text-gray-800">Mạng Xã Hội</h1>
+                <h1 className="text-3xl font-bold text-gray-800">Happy</h1>
                 <div className="text-right">
                     <p className="font-semibold text-gray-700">Chào, {user.username}!</p>
                     <button onClick={handleLogout} className="text-sm text-blue-500 hover:underline">Đăng xuất</button>
